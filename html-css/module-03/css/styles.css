@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+     max-width: 100%; 
+    height: auto;
+}
+
+.container {
+    width: 901px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.navigation {
+    padding-top: 76px;
+    padding-bottom: 101px;
+}
+
+.header-list {
+    display: inline-block;
+    width: calc(901px - 164px);
+    text-align: right;
+    vertical-align: middle;
+
+}
+
+.header-list-title {
+    display: inline-block;
+    margin-right: 118px;
+}
+
+.header-list-title-last {
+    margin-right: 0px;
+}
+
+.header_list-link {
+    font-family: "Playfair+Display", sans-serif;
+    font-size: 14px;
+    color: #626262;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* MAIN */
+
+.lifestyle_list {
+    margin-bottom: 130px;
+}
+
+.lifestyle_list_last {
+    margin-bottom: 61px;
+}
+
+.lifestyle_item {
+    display: inline-block;
+    width: 421px;
+    margin-right: 55px;
+}
+
+.lifestyle_item_last {
+    margin-right: 0px;
+}
+
+.lifestyle_img {
+    margin-bottom: 32px;
+}
+
+.lifestyle_p {
+    margin-bottom: 30px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+
+.section_title {
+    margin-bottom: 37px;
+    font-size: 30px;
+    font-family: "Playfair Display", sans-serif;
+    color: rgb(98, 98, 98);
+    line-height: 1.2;  
+    font-weight: 400;
+}
+
+.lifestyle_text {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 14px;
+    color: rgb(98, 98, 98);
+    line-height: 1.714;  
+    font-weight: 400;
+    text-align: left;   
+}
+
+.buttom_load {
+    display: block;
+    font-size: 20px;
+    font-family: "Playfair Display", sans-serif;
+    color: rgb(98, 98, 98);
+    line-height: 1.2;
+    width: 167px;
+    height: 62px;
+    border-width: 2px;
+    border-color: rgb(98, 98, 98) ;
+    border-style: solid;
+    background-color: transparent;
+    margin-top: 0;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+      
+}
+
