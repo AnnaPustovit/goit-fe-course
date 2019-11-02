@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+   
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* HEADER */
+
+header {
+    padding-top: 36px;
+    padding-bottom: 108px;
+}
+
+.logotype {
+    float: left;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: #555252;
+    line-height: 1.067;
+    position: absolute;
+   
+}
+
+.logotype::first-letter {
+    color: #1abc9c;
+}
+
+.header__list {
+    float: right;
+    padding-top: 6px;
+      
+}
+
+.header__list_item {
+    float: left;
+    
+}
+.header__list_item {
+    margin-right: 34px;
+}
+.header__list_item:last-child {
+    margin-right: 30px;
+}
+
+.header__list_link {
+    color: black;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.786;
+}
+.header__list_link:hover {
+    color: #1abc9c;
+}
+
+/* SECTION PRODUCTS */
+
+.products {
+    padding-bottom:72px ;
+}
+
+.products_title {
+    text-align: center;
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    line-height: 0.667;
+    color: #515151;  
+    margin-bottom: 94px;  
+      
+}
+
+.products_title::after {
+    display: block;
+    content: "";
+    width: 164px;
+    height: 7px;
+    background-color: rgb(26, 188, 156);
+    margin: 0 auto;
+    margin-top: 36px;
+
+      
+}
+
+.products_list_item {
+    float: left;
+    margin-right: 28px;
+    margin-bottom: 30px;
+}
+
+.products_list_item:nth-child(4),
+.products_list_item:nth-child(8) {
+    margin-right: 0;
+}
+
+
+
+.product_list_item_button {
+    display: block;
+    height: 40px;
+    width: 256px;
+    background-color: transparent;
+    border-width: 0px; 
+}
+
+
+.product__button_name {
+    float: left;
+    font-size: 18px;   
+    font-family: "Roboto", sans-serif; 
+    font-weight: 700;  
+    color: rgb(255, 255, 255);   
+    text-transform: uppercase;   
+    line-height: 1.778;   
+    text-align: left;
+    padding-left: 12px;
+    width: 200px;
+    height: 40px;
+    background-color: #323232;
+    padding-top: 4px;
+      
+}
+
+.product__button_price {
+    float: right;
+    background-color: #8c8c8c;
+    height: 40px;
+    width: 56px;
+    font-size: 18px;   
+    font-family: "Roboto", sans-serif; 
+    font-weight: 700;  
+    color: rgb(255, 255, 255);   
+    text-transform: uppercase;   
+    line-height: 1.778;   
+    text-align: center;
+    padding-top: 4px;
+      
+}
+
+.product_list_item_button a:hover {
+    background-color: #4ec6ab;
+}
+
+/* SECTION NEWS */
+
+.news {
+    padding-bottom: 44px;
+}
+
+.news__title {
+    text-align: center;
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    line-height: 0.667;
+    color: #515151;  
+    margin-bottom: 94px; 
+
+}
+
+.news__title::after {
+    display: block;
+    content: "";
+    width: 164px;
+    height: 7px;
+    background-color: rgb(26, 188, 156);
+    margin: 0 auto;
+    margin-top: 36px; 
+}
+
+.news__list_item{
+    float: left;
+    width: 350px;
+    margin-right: 28px;
+}
+.news__list_item:last-child {
+    margin-right: 0;
+}
+
+.news__img {
+    margin-bottom: 18px;
+}
+
+.news__list_item_p {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(85, 82, 82);
+    line-height: 1.444;
+    font-weight: 700;
+    margin-bottom: 30px;
+     
+}
+
+.news__list_item_p::after {
+    display: block;
+    content: "";
+    width: 136px;
+    height: 3px;
+    background-color: #4ec6ab;
+    margin-top: 10px;
+
+
+}
+
+.news__list_item_text {
+    font-size: 14px;
+    font-family: "OpenSans", sans-serif;
+    color: #555252;
+    line-height: 1.857; 
+    font-weight: 500;   
+    margin-bottom: 16px; 
+}
+
+.news__button {
+    height: 52px;
+    width: 160px;
+    background-color: #4ec6ab;
+    border-width: 0px;
+    border-color: #4ec6ab;
+    border-radius: 3%;
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 1.625;
+    text-align: center;
+    font-weight: light;
+
+}
+
+
+  
+
+
+
+
+
