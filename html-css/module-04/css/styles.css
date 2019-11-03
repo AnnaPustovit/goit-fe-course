@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -130,7 +130,7 @@ header {
     display: block;
     height: 40px;
     width: 256px;
-    background-color: transparent;
+    background-color:  #323232;
     border-width: 0px; 
 }
 
@@ -147,14 +147,13 @@ header {
     padding-left: 12px;
     width: 200px;
     height: 40px;
-    background-color: #323232;
     padding-top: 4px;
       
 }
 
 .product__button_price {
     float: right;
-    background-color: #8c8c8c;
+    background-color: rgba(255, 255, 255, 0.3);
     height: 40px;
     width: 56px;
     font-size: 18px;   
@@ -168,9 +167,11 @@ header {
       
 }
 
-.product_list_item_button a:hover {
-    background-color: #4ec6ab;
+.products_list_item:hover .product_list_item_button {
+    background-color: rgb(26, 188, 156);
 }
+
+
 
 /* SECTION NEWS */
 
