@@ -82,7 +82,7 @@ header {
 
 .slider {
     background-image:linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), 
-    url(/img/slide4.jpg);
+    url(../img/slide4.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
