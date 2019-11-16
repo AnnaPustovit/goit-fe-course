@@ -52,6 +52,7 @@ header {
 
 .logotype::first-letter {
     color: #1abc9c;
+    font-weight: 700;
 }
 
 .navigation__menu {
@@ -144,9 +145,11 @@ header {
 
 /* SECTION COLLECTION */
 
+
 .collection {
     padding-top: 100px;
     padding-bottom: 94px ;
+    background-color: #e9f0fd ;
 }
 
 .collection__title {
@@ -220,7 +223,7 @@ header {
     background-position: center;
     background-color: transparent;
     border: white;
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
     
 
@@ -245,7 +248,7 @@ header {
     width: 166px ;
     height: 50px ;
     border: white;
-    border-width: 2px;
+    border-width: 1px;
     font-family: "OpenSans", sans-serif;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
