@@ -63,7 +63,7 @@ a {
 }
 
 .container {
-    width: 940px;
+    width: 58.75rem;
     background-color: transparent;
     margin: 0 auto;
 }
@@ -82,8 +82,8 @@ header {
 
 .logotype {
     display: block;
-    height: 34px;
-    width: 90px;
+    height: 2.125rem;
+    width: 5.625rem;
     background-image: url(../img/Logo.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -92,17 +92,17 @@ header {
 .navigation {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 124px;
+    margin-bottom: 7.75rem;
 }
 
 .navigation__list {
-    min-width: 486px;
+    min-width: 30.375rem;
     display: flex;
     justify-content: space-between;
 }
 
 .navigation__list_link {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     color: #5d5d5d;
@@ -119,12 +119,12 @@ header {
 /* SERVICES */
 
 .services {
-    margin-bottom: 102px;
+    margin-bottom: 6.375rem;
 
 }
 
 .services__title {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-family: "Montserrat", sans-serif;
     color: rgb(34, 34, 34);
     font-weight: bold;
@@ -135,13 +135,13 @@ header {
 }
 
 .services__text {
-    font-size: 16px;
+    font-size: 1rem;
     font-family: "Cambay", sans-serif;
     color: rgb(119, 119, 119);
     font-style: italic;
     line-height: 1.2;
     text-align: center;
-    margin-bottom: 78px;
+    margin-bottom: 4.875rem;
 
 }
 
@@ -158,15 +158,15 @@ header {
 .services__list_item::before {
     display: block;
     content: "";
-    width: 72px;
-    height: 72px;
+    width: 4.5rem;
+    height: 4.5rem;
     border-style: solid;
     border-width: 3px;
     border-color: rgb(254, 209, 54);
     border-radius: 50%;
     background-color: transparent;
     margin: 0 auto;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     background-position: center;
     background-repeat: no-repeat;
 
@@ -187,7 +187,7 @@ header {
 
 
 .services__list_item_title {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: "Montserrat";
     color: rgb(34, 34, 34);
     font-weight: bold;
@@ -197,13 +197,13 @@ header {
 }
 
 .services__list_item_text {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: "Roboto Slab", sans-serif;
     color: #898989;
     line-height: 1.2;
     text-align: center;
-    width: 274px;
-    height: 57px;
+    width: 17.125rem;
+    height: 3.5625rem;
     letter-spacing: -0.35px;
 
 
@@ -212,8 +212,8 @@ header {
 /* FOOTER */
 
 footer {
-    padding-top: 112px;
-    padding-bottom: 114px;
+    padding-top: 7rem;
+    padding-bottom: 7.125rem;
     background-color: black;
     background-image: url(../img/MapImage.png);
     background-position: right;
@@ -222,7 +222,7 @@ footer {
   
 
 .contact__title {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-family: "Montserrat";
   color: rgb(255, 255, 255);
   font-weight: bold;
@@ -235,20 +235,20 @@ footer {
 }
 
 .contact__text {
-    font-size: 16px;
+    font-size: 1rem;
     font-family: "Cambay", sans-serif;
     color: rgb(119, 119, 119);
     font-style: italic;
     line-height: 1.2;
     text-align: center;
-    margin-bottom: 76px;
+    margin-bottom: 4.75rem;
 
 }
 
 .form__div {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 
 }
 
@@ -256,50 +256,50 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 214px;
+    height: 13.375rem;
 }
 
 .form__input {
-    width: 456px;
-    height: 54px;
+    width: 28.5rem;
+    height: 3.375rem;
     display: flex;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: "Montserrat", sans-serif;
     color: rgb(187, 187, 187);
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1.2;
-    padding-left: 20px;
+    padding-left: 1.25rem;
     background-color: #ffffff;
     
 }
  
  .form__textarea {
-    width: 456px;
-    height: 214px;
+    width: 28.5rem;
+    height: 13.375rem;
     resize: none;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: "Montserrat", sans-serif;
     color: rgb(187, 187, 187);
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1.2;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: 1.25rem;
+    padding-top: 1.25rem;
     background-color: #ffffff;
  }
 
 .form__btn {
     display: block;
-    width: 240px;
-    height: 66px;
+    width: 15rem;
+    height: 4.125rem;
     background-color: transparent;
     border: transparent;
-    border-radius: 3px;
+    border-radius: 0.1875rem;
     background-color: rgb(254, 209, 54);
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: "Montserrat";
     color: rgb(255, 255, 255);
     font-weight: bold;
