@@ -1,0 +1,462 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+/* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'),
+         url('../fonts/roboto-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-regular - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'),
+         url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* MOBILE FIRST CSS */
+
+.container {
+    width: 20rem;
+    margin: 0 auto;
+    padding: 0.625rem;
+    background-color: transparent;
+}
+
+/* HEADER */
+
+header {
+    background-image: url(../img/mobile-img/fon-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 33.75rem;
+    padding-top: 1.25rem;
+}
+
+.navigation {
+    display: flex;
+    min-height: 10.75rem;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    margin-bottom: 2.125rem;
+  
+}
+
+.navigation__list {
+    display: flex;
+    width: 9.875rem;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+
+.logotype {
+    margin: 0 auto;
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center; 
+    letter-spacing: 0.0625rem;
+
+}
+
+.navigation__list_link {
+    display: block;
+    font-size: 0.875rem;
+    font-family: "Montserrat",sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    height: 2.25rem;
+    padding-top: 0.375rem;
+    
+   
+}
+
+
+.navigation__list_link2 {
+    border: 0.125rem solid white;
+    border-radius: 1.25rem;
+    width: 5.625rem;
+      
+}
+ 
+
+.navigation__title {
+    font-size: 1.875rem;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 1.125rem;
+
+}
+
+.navigation__text {
+    font-size: 1.125rem;
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 1.125rem;
+
+
+}
+
+.navigation__btn {
+    display: block;
+    border-radius: 1.25rem;
+    background-color: rgb(255, 78, 80);
+    width: 17.5rem;
+    height: 2.5rem;
+    border: none;
+    font-size: 0.875rem;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.navigation__span {
+    display: block;
+}
+
+/* SECTION */
+
+.partners {
+    padding-top: 4.25rem;
+    margin-bottom: 3.5rem;
+}
+
+.partners__title {
+    font-size: 1.375rem;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 1.25rem;
+
+}
+
+.partners__list {
+    width: 222px;
+    margin: 0 auto 1.875rem;
+}
+
+.partners__list_item {
+    min-height: 3.875rem;
+}
+
+.partners__list_item:not(:last-child) {
+    margin-bottom: 1.625rem;
+}
+
+.partners__list_item_title {
+    font-size: 0.875rem;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.partners__list_item_text {
+    font-size: 0.875rem;
+    font-family: "Roboto";
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: center;
+
+}
+
+.partners__div1,
+.partners__div2,
+.partners__div3,
+.partners__div4 {
+    margin-bottom: 1.25rem;
+    position: relative;
+    width: 8.375rem;
+    height: 8.375rem;
+    margin: 0 auto 1.25rem;
+
+}
+
+.partners__img {
+    margin: 0 auto;
+}
+
+.partners__div1::after {
+    display: block;
+    content: "";
+    width: 2.375rem;
+    height: 2.375rem;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-width: 0.25rem;
+    border-style: solid;
+    border-color: white;
+    position: absolute;
+    border-radius: 50%;
+    right: 0rem;
+    bottom: 0.0625rem;
+    background-image: url(../img/mobile-img/icons/tv.png);
+    background-color: #ff4e50;
+
+
+} 
+
+ .partners__div2::after {
+    display: block;
+    content: "";
+    width: 2.375rem;
+    height: 2.375rem;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-width: 0.25rem;
+    border-style: solid;
+    border-color: white;
+    position: absolute;
+    border-radius: 50%;
+    right: 0rem;
+    bottom: 0.0625rem;
+    background-image: url(../img/mobile-img/icons/btl.png);
+    background-color: #ffa507;
+}
+
+.partners__div3::after {
+    display: block;
+    content: "";
+    width: 2.375rem;
+    height: 2.375rem;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-width: 0.25rem;
+    border-style: solid;
+    border-color: white;
+    position: absolute;
+    border-radius: 50%;
+    right: 0rem;
+    bottom: 0.0625rem;
+    background-image: url(../img/mobile-img/icons/cup.png);
+    background-color: #1cd7ad;
+}
+
+.partners__div4::after {
+    display: block;
+    content: "";
+    width: 2.375rem;
+    height: 2.375rem;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-width: 0.25rem;
+    border-style: solid;
+    border-color: white;
+    position: absolute;
+    border-radius: 50%;
+    right: 0rem;
+    bottom: 0.0625rem;
+    background-image: url(../img/mobile-img/icons/tel.png);
+    background-color: #4e73db;
+}
+
+
+.partners__btn {
+    width: 17.5rem;
+    height: 2.375rem;
+    display: block;
+    margin: 0 auto;
+    font-size: 0.875rem;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 78, 80);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.125rem;
+    border-color: rgb(255, 78, 80);
+    border-radius: 1.25rem;
+    background-color: rgb(255, 255, 255);
+
+}
+
+/* TABLET */
+
+@media (min-width: 46.75rem) {
+
+    .container {
+        width: 46.75rem;
+        padding: 0;
+    }
+      
+    header {
+        background-image: linear-gradient( rgba(26, 25, 21, 0.2), rgba(26, 25, 21, 0.2)), url(../img/tablet-img/fon-tablet.jpg);
+        min-height: 43.75rem;
+        padding-top: 2.25rem;
+    }
+
+    .navigation {
+        min-height: auto;
+        flex-direction: row;
+        margin: 0 0 9.375rem 0 ;
+        padding: 0 2.75rem;
+      
+    }
+
+    .logotype {
+        margin: 0;   
+    }
+
+
+    .navigation__list {
+        margin: 0;
+    }
+
+    span {
+        display: block;
+    }
+
+    .navigation__title {
+        font-size: 3.25rem;
+        margin-bottom: 1.5rem;
+    
+    }
+
+    .navigation__text {
+        font-size: 1.5rem;
+        margin-bottom: 1.75rem;
+    
+    }
+    .navigation__span {
+        display: inline-block;
+    }
+
+    .navigation__btn {
+        width: 14.125rem;
+    }
+
+    /* SECTION */
+
+
+    .partners {
+        margin-bottom: 2.5rem;
+    }
+
+    .partners__title {
+        margin-bottom: 2.125rem;
+    
+    }
+
+    .partners__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 30.75rem;
+
+    }
+
+    .partners__list_item {
+        width: 14.625rem;
+    }
+
+    .partners__list_item:not(:last-child) {
+        margin-bottom: 0rem;
+    }
+
+    .partners__list_item:not(:nth-last-child(-n + 2)) {
+        margin-bottom: 2.125rem;
+    }
+
+    .partners__btn {
+        width: 11.875rem;
+    }
+    
+
+}
+
+/* DESKTOP */
+
+@media (min-width: 58.875rem) {
+
+    .container {
+        width: 58.875rem;
+        
+    }
+    header {
+        background-image: linear-gradient( rgba(26, 25, 21, 0.2), rgba(26, 25, 21, 0.2)), url(../img/dektop-img/fon-dektop.jpg);
+        min-height: 43.75rem;
+        padding-top: 2.25rem;
+    }
+
+    .navigation {
+        padding: 0;
+    }
+
+    .partners__list {
+        width: 58.875rem;
+
+    }
+
+
+}
+
+
