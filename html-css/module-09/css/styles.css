@@ -62,7 +62,7 @@
  /* HEADER */
 
  header {
-     background-image: url(../img/mobile-img/fon-img.jpg)
+     background-image: url(../img/mobile-img/fon-img.jpg);
      background-repeat: no-repeat;
      background-size: cover;
      min-height: 33.75rem;
